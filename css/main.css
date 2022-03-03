@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-menu{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav .nav-menu .boton{
+    color: #fff;
+    border: 1px solid transparent;
+    min-width: 96px;
+    background: #2b7de9;
+}
+nav .nav-menu a{
+    margin-right: 10px;
+    color: #000000;
+}
+nav .nav-menu .boton{
+    display: inline-block;
+    color: #fff;
+    margin-left: 8px;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 3.3px;
+    height: 35px;
+    width: 5px;
+}
+nav .nav-menu .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+}
+nav .nav-menu{
+    margin: 12px;
+}
+nav .nav-menu .material-icons-outlined{
+    background-image: url(../icons/apps_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.material-icons-outlined{
+    
+}
