@@ -1,62 +1,54 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-size: 16px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-header{
-    width: 100%;
-    height: 60px;
-}
-a{
+a {
     text-decoration: none;
     cursor: pointer;
 }
-header nav{
+
+header {
+    width: 100%;
+    height: 60px;
+}
+header nav {
     display: flex;
     justify-content: flex-end;
 }
-header nav .nav-menu{
+header nav .nav-right-section {
     width: 250px;
     height: auto;
     display: flex;
+    list-style: none;
     justify-content: center;
     align-items: center;
-    list-style: none;
 }
-nav .nav-menu .boton{
-    color: #fff;
+nav .nav-right-section .acceder{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px 2px 0 rgba(66, 133, 244, 0, 0.3);
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid transparent;
-    min-width: 96px;
-    background: #2b7de9;
+    height: 37px;
+    width: 90px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    background-color: #2b7de9;
+    background: #1a73e8;
+    color: white;
+    cursor: pointer;
 }
-nav .nav-menu a{
+nav .nav-right-section a {
     margin-right: 10px;
     color: #000000;
 }
-nav .nav-menu .boton{
-    display: inline-block;
-    color: #fff;
-    margin-left: 8px;
-    background-color: #1a73e8;
-    border: 1px solid transparent;
-    border-radius: 3.3px;
-    height: 35px;
-    width: 5px;
-}
-nav .nav-menu .boton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: normal;
-}
-nav .nav-menu{
-    margin: 12px;
-}
-nav .nav-menu .material-icons-outlined{
-    background-image: url(../icons/apps_black_24dp.svg);
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -64,6 +56,20 @@ nav .nav-menu .material-icons-outlined{
     height: 25px;
     cursor: pointer;
 }
-.material-icons-outlined{
-    
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img {
+    width: 300px;
 }
